@@ -12,6 +12,6 @@ export const APIUrls = {
   submitAssignment: () => `${API_ROOT}/api/v1/assignment/submit`,
   evaluateAssignment: () => `${API_ROOT}/api/v1/assignment/evaluate`,
   getAllAssignments: () => `${API_ROOT}/api/v1/assignment/all-assignments`,
-  getAllStudents: () => `${API_ROOT}/user/all-students`,
+  getAllStudents: () => `${API_ROOT}/api/v1/user/all-students`,
   getmyAssign: () => `${API_ROOT}/api/v1/assignment/my-assign`,
 };
